@@ -1,0 +1,22 @@
+Comandos importantes para o git
+
+-- Configurando uma pasta no pc para ser copia de um repositório no git
+
+git config --global user.name "user"
+git config --global user.email "email"
+
+-- Clonando um repositorio
+git clone https://github.com/usuario/repositorio/
+
+-- Adicionando um arquivo na fila pro git
+git add "arquivo"
+
+-- Indicando o que foi feito com o arquivo
+git commit -m "Uma mensagem sobre o commit"
+
+-- Enviando para o repositório
+git push -u origin master
+
+-- Verificando se existem arquivos modificados e se existem diferenças entre a pasta e o repositorio
+git status
+
